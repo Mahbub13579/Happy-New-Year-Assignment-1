@@ -20,13 +20,14 @@ main {
 
 
 .banner {
-    background-image: url('../resources/Banner\ Image.png');
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../resources/Banner\ Image.png');
+    border-radius: 15px;
     background-repeat: no-repeat;
 }
 
 .banner-content {
 
-    padding: 177px 344px;
+    padding: 100px 344px;
     text-align: center;
 
 }
@@ -50,6 +51,7 @@ main {
 }
 
 .discount-value {
+    margin-top: 120px;
     color: #F00;
     font-family: Inter;
     font-size: 88px;
@@ -79,7 +81,8 @@ main {
 
 .mid-night-party {
     margin-top: 120px;
-    background-image: url('../resources/Vectorrr.png')
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../resources/Vectorrr.png');
+    border-radius: 15px;
 }
 
 .mid-night {
